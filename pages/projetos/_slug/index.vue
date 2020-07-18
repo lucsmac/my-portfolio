@@ -366,6 +366,7 @@ export default {
 
     a {
       @include p-type('normal', 1, 'reg', white);
+      text-align: right;
       text-transform: uppercase;
       letter-spacing: 3px;
       padding: 5px 0;
