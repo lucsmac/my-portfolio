@@ -34,7 +34,7 @@
     "category": "Desenvolvimento web / UI design",
     "warning": {
       "have": true,
-      "msg": "Em desenvolvimento"
+      "msg": "(Em desenvolvimento)"
     },
     "imgsFolder": "plenitude-consultoria",
     "mainImg": "plenitude.jpg",
