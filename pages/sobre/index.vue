@@ -22,9 +22,9 @@
       <h3 class="contact-title">Contato</h3>
       <span class="contact-desc">Entre em contato comigo através do e-mail <b>lucasmdc57@gmail.com</b>, ou através das redes sociais.</span>
       <div class="contact-items">
-        <a class="contact-social-media" href="#" target="_blank">Instagram</a>
-        <a class="contact-social-media" href="#" target="_blank">Github</a>
-        <a class="contact-social-media" href="#" target="_blank">Linkedin</a>
+        <a class="contact-social-media" href="https://www.instagram.com/lucs_macedo/" target="_blank">Instagram</a>
+        <a class="contact-social-media" href="https://github.com/lucsmac" target="_blank">Github</a>
+        <a class="contact-social-media" href="https://www.linkedin.com/in/lucsmac/" target="_blank">Linkedin</a>
       </div>
     </div>
   </div>

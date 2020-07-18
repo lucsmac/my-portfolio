@@ -29,9 +29,9 @@
         <span class="counter-total">0{{totalProjects}}</span>
       </div>
       <div class="social">
-        <a href="#" target="_blank" class="social-item">ig</a>
-        <a href="#" target="_blank" class="social-item">in</a>
-        <a href="#" target="_blank" class="social-item">git</a>
+        <a href="https://www.instagram.com/lucs_macedo/" target="_blank" class="social-item">ig</a>
+        <a href="https://www.linkedin.com/in/lucsmac/" target="_blank" class="social-item">in</a>
+        <a href="https://github.com/lucsmac" target="_blank" class="social-item">git</a>
       </div>
     </div>
     <div class="controls">
