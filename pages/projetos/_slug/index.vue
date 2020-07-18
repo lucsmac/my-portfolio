@@ -257,6 +257,7 @@ export default {
         width: 160px;
         height: 160px;
         transform: translate3d(0, -60%, 0);
+        display: none;
       }
 
       .circular-text {
