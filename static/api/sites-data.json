@@ -6,6 +6,9 @@
     "nameSplit": ["Portal de", "meio ambiente"],
     "year": 2019,
     "category": "Desenvolvimento web / UI design",
+    "warning": {
+      "msg": ""
+    },
     "imgsFolder": "portal-de-meio-ambiente",
     "mainImg": "portal-de-meio-ambiente.jpg",
     "uiImgs": ["ui-1.jpg", "ui-2.jpg", "ui-3.jpg"],
@@ -28,10 +31,13 @@
     "nameSplit": ["Plenitude", "consultoria"],
     "year": 2020,
     "category": "Desenvolvimento web / UI design",
+    "warning": {
+      "msg": "Site em desenvolvimento"
+    },
     "imgsFolder": "plenitude-consultoria",
     "mainImg": "plenitude.jpg",
     "uiImgs": ["ui-1.jpg", "ui-2.jpg", "ui-3.jpg"],
-    "tools": ["VueJs", "Pré-processadores CSS (SCSS)", "GitHub", "Adobe XD", "Photoshop"],
+    "tools": ["Vuejs", "Nuxtjs", "Pré-processadores CSS (SCSS)", "GitHub", "Adobe XD", "Photoshop"],
     "description": ["O site da empresa Plenitude Consultoria foi criado com o objetivo de reunir e expor em um local apropriado as informações sobre os produtos e serviços, criar um canal mais simples de compras para os clientes e melhorar a visibilidade da marca no que diz respeito à autoridade.", "Fui o responsável tanto pelo design da interface quanto pelo código. Nesse projeto pude implementar os conhecimentos a cerca de uma das tecnologias mais modernas de desenvolvimento, o VueJS.", "Com isso, o aprendizado adquirido durante o processo de construção do site gerou um grande crescimento na minha confiança para trabalhar com frameworks moderno, pois, devido aos problemas encontrados no caminho, me tornei mais familiarizado com o fluxo de trabalho e os problemas que podem aparecer no desenvolvimento web moderno."],
     "siteLink": "https://plenitudeconsultoria.netlify.app/",
     "codeLink": "https://github.com/lucsmac/plenitude-consultoria",
@@ -50,6 +56,9 @@
     "nameSplit": ["Peridrops", "Motion"],
     "year": 2020,
     "category": "Desenvolvimento web / UI design",
+    "warning": {
+      "msg": ""
+    },
     "imgsFolder": "peridrops",
     "mainImg": "peridrops.jpg",
     "uiImgs": ["ui-1.jpg", "ui-2.jpg", "ui-3.jpg"],

@@ -105,225 +105,225 @@ export default {
       height: 45vh;
     }
   }
-}
 
-.card-slide {
-  width: 100%;
-  padding: 0 5vw;
-}
-
-.card {
-  justify-content: center;
-  height: 60vh;
-  position: relative;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-rows: 1fr;
-
-  @include max('tablet-wide') {
-    height: 50vh;
+  .card-slide {
+    width: 100%;
+    padding: 0 5vw;
   }
 
-  @include max('tablet') {
-    height: 48vh;
-  }
+  .card {
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr;
 
-  @include max('phone-wide') {
-    height: 40vh;
-  }
-
-  &__img {
-    display: flex;
-    grid-row: 1;
-    grid-column: 1;
-
-    .img {
-      max-width: 500px;
-      border-radius: 6px;
-      margin: 0 7px;
-      z-index: 20;
-      @include shadow;
-
-      @include max('tablet-wide') {
-        max-width: 400px;
-      }
-
-      @include max('phone-wide') {
-        max-width: 85vw;
-        margin-bottom: 20px;
-      }
+    @include max('tablet-wide') {
+      height: 50vh;
     }
 
-    .year, .type {
-      @include s-type(.6rem, 1, 'reg', white);
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      opacity: .9;
+    @include max('tablet') {
+      height: 48vh;
     }
-
-    .year {
-      padding-bottom: 20px;
-      align-self: flex-end;
-
-      @include max('phone-wide') {
-        padding-bottom: 35px;
-      }
-    }
-
-    .type {
-      padding-top: 20px;
-    }
-  }
-
-  &__title {
-    grid-row: 1;
-    grid-column: 1;
 
     @include max('phone-wide') {
-      grid-row: initial;
+      height: 40vh;
     }
 
-    &.back {
-      align-self: start;
-      justify-self: start;
-      transform: translate3d(-100px, 0, 0);
-      z-index: 10;
-
-      @include max('tablet-wide') {
-        transform: translate3d(-50px, 0, 0);
-      }
-
-      @include max('phone-wide') {
-        transform: translate3d(0, 0, 0);
-        justify-self: center;
-      }
-    }
-
-    &.front {
-      align-self: end;
-      justify-self: end;
-      transform: translate3d(100px, 0, 0);
-      z-index: 30;
-
-      @include max('tablet-wide') {
-        transform: translate3d(50px, 0, 0);
-      }
-
-      @include max('phone-wide') {
-        transform: translate3d(0, 0, 0);
-        justify-self: center;
-      }
-    }
-
-    .title {
-      @include p-type('giant', .8, 'semibold',  $p-color);
-      text-transform: uppercase;
-      transition: all .3s ease;
-
-      @include max('tablet-wide') {
-        font-size: 5rem;
-      }
-
-      @include max('tablet') {
-        font-size: 4rem;
-      }
-
-      @include max('phone-wide') {
-        font-size: 3.25rem;
-      }
-    }
-  }
-}
-
-.home-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 7vh 7vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  @include p-type('normal', 1, 'medium', white);
-
-  @include max('phone-wide') {
-    padding: 0vh 5vw;
-  }
-
-  .counter {
-    letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    justify-self: start;
-
-    &-current {
-      @include p-type(3rem, 1, 'bold', white);
-      padding-right: 15px;
-      text-align: center;
-      width: 65px;
-
-      @include max('phone-wide') {
-        font-size: 1.5rem;
-      }
-    }
-
-    &-total {
-      @include p-type(1.25rem, .5, 'reg', rgba(255, 255, 255, .7));
+    &__img {
       display: flex;
-      align-items: center;
+      grid-row: 1;
+      grid-column: 1;
 
-      @include max('phone-wide') {
-        font-size: 1rem;
-      }
+      .img {
+        max-width: 500px;
+        border-radius: 6px;
+        margin: 0 7px;
+        z-index: 20;
+        @include shadow;
 
-      &::before {
-        content: '';
-        width: 75px;
-        height: 10px;
-        background: white;
-        display: block;
-        margin-right: 15px;
-        margin-bottom: 4px;
+        @include max('tablet-wide') {
+          max-width: 400px;
+        }
 
         @include max('phone-wide') {
-          width: 50px;
-          height: 7px;
+          max-width: 85vw;
+          margin-bottom: 20px;
+        }
+      }
+
+      .year, .type {
+        @include s-type(.6rem, 1, 'reg', white);
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        opacity: .9;
+      }
+
+      .year {
+        padding-bottom: 20px;
+        align-self: flex-end;
+
+        @include max('phone-wide') {
+          padding-bottom: 35px;
+        }
+      }
+
+      .type {
+        padding-top: 20px;
+      }
+    }
+
+    &__title {
+      grid-row: 1;
+      grid-column: 1;
+
+      @include max('phone-wide') {
+        grid-row: initial;
+      }
+
+      &.back {
+        align-self: start;
+        justify-self: start;
+        transform: translate3d(-100px, 0, 0);
+        z-index: 10;
+
+        @include max('tablet-wide') {
+          transform: translate3d(-50px, 0, 0);
+        }
+
+        @include max('phone-wide') {
+          transform: translate3d(0, 0, 0);
+          justify-self: center;
+        }
+      }
+
+      &.front {
+        align-self: end;
+        justify-self: end;
+        transform: translate3d(100px, 0, 0);
+        z-index: 30;
+
+        @include max('tablet-wide') {
+          transform: translate3d(50px, 0, 0);
+        }
+
+        @include max('phone-wide') {
+          transform: translate3d(0, 0, 0);
+          justify-self: center;
+        }
+      }
+
+      .title {
+        @include p-type('giant', .8, 'semibold',  $p-color);
+        text-transform: uppercase;
+        transition: all .3s ease;
+
+        @include max('tablet-wide') {
+          font-size: 5rem;
+        }
+
+        @include max('tablet') {
+          font-size: 4rem;
+        }
+
+        @include max('phone-wide') {
+          font-size: 3.25rem;
         }
       }
     }
   }
 
-  .social {
+  .home-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 7vh 7vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-    justify-self: end;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    @include p-type('normal', 1, 'medium', white);
 
-    &-item {
-      color: white;
+    @include max('phone-wide') {
+      padding: 5vh 5vw;
+    }
+
+    .counter {
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      justify-self: start;
+
+      &-current {
+        @include p-type(3rem, 1, 'bold', white);
+        padding-right: 15px;
+        text-align: center;
+        width: 65px;
+
+        @include max('phone-wide') {
+          font-size: 1.5rem;
+        }
+      }
+
+      &-total {
+        @include p-type(1.25rem, .5, 'reg', rgba(255, 255, 255, .7));
+        display: flex;
+        align-items: center;
+
+        @include max('phone-wide') {
+          font-size: 1rem;
+        }
+
+        &::before {
+          content: '';
+          width: 75px;
+          height: 10px;
+          background: white;
+          display: block;
+          margin-right: 15px;
+          margin-bottom: 4px;
+
+          @include max('phone-wide') {
+            width: 50px;
+            height: 7px;
+          }
+        }
+      }
+    }
+
+    .social {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 10px;
+      justify-self: end;
+
+      &-item {
+        color: white;
+      }
     }
   }
-}
 
-.controls {
-  position: absolute;
-  width: 100%;
-  padding: 0 7vw;
-  top: 50%;
-  transform: translate3d(0, -50%, 0);
-  display: flex;
-  justify-content: space-between;
+  .controls {
+    position: absolute;
+    width: 100%;
+    padding: 0 7vw;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    display: flex;
+    justify-content: space-between;
 
-  @include max('phone-wide') {
-    top: 85%;
-    padding: 0 3vw;
-  }
+    @include max('phone-wide') {
+      top: 85%;
+      padding: 0 3vw;
+    }
 
-  &-item {
-    @include p-type(2rem, 1, 'bold', white);
-    opacity: .8;
-    text-transform: uppercase;
+    &-item {
+      @include p-type(2rem, 1, 'bold', white);
+      opacity: .8;
+      text-transform: uppercase;
+    }
   }
 }
 </style>

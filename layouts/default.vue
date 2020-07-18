@@ -12,8 +12,7 @@
 
 <style lang="scss">
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&family=Teko:wght@300;400;500;600;700&display=swap');
 
 body {
   overflow-x: hidden;
