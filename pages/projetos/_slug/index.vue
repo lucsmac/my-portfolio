@@ -37,7 +37,7 @@
     </div>
 
     <div class="project-links">
-      <a :href="project.siteLink" target="_blank">Ir para o site<span :v-if="project.warning.msg">{{ project.warning.msg }}</span></a>
+      <a :href="project.siteLink" target="_blank">Ir para o site <span :v-if="project.warning.have">({{ project.warning.msg }})</span></a>
       <a :href="project.codeLink" target="_blank">Ver código</a>
     </div>
 
